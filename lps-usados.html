@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	<link rel="stylesheet" href="_css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Kozmik Records - Store</title>
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+	<header id="cabecalho">
+
+		<h1>Kozmic</h1>
+		<!--<img id="disco" src="_img/spotify.png"/>-->
+
+		<nav id="user-menu">
+
+
+
+
+			<div class="user-menu">
+				<ul>
+					<li><a href="#"><i class="fa fa-user"></i> Minha Conta</a></li>
+					<li><a href="carrinho.html"><i class="fa fa-shopping-cart"></i> Meu Carrinho</a></li>
+					<li><a href="#"><i class="fa fa-lock"></i> Login</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+		</nav>
+
+
+		<nav id="menu">
+
+			<ul type="circle">
+				<li><a href="index.html">HOME</li></a>
+				<li><a href="lps-novos.html">LPS NOVOS</a></li>
+				<li><a href="lps-usados.html">LPS USADOS</a></li>
+				<li><a href="quem-somos.html">QUEM SOMOS</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+
+		</nav>
+
+
+		<div class="shopping-item">
+			<a href="carrinho.html">Carrinho - <span id="carrinho">R$ 0</span> <i class="fa fa-shopping-cart"></i>
+				<span id='item'>0 </span></a>
+		</div>
+
+
+
+	</header>
+	<div id="interface">
+
+
+
+
+
+
+
+
+
+		<main class="products">
+			<h1>LPS NOVOS</h1>
+			<hr width=100%> <br><br>
+			<div>
+				<img src="_img/usados/1.jpg" />
+				<figcaption id="produto1"><a href="#"> ullamcorper - lorem nec</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco1')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco1">R$ 100,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/2.jpg" />
+				<figcaption id="produto2"><a href="#">Odio - pulvinar</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco2')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco2">R$ 110,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/3.jpg" />
+				<figcaption id="produto3"><a href="#">Suscipit est - dignissim</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco3')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco3">R$ 100,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/4.jpg" />
+				<figcaption id="produto4"><a href="#"> In non - quam eget</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco4')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco4">R$ 115,00</h5>
+			</div>
+			<div>
+				<img src="_img/usados/5.jpg" />
+				<figcaption id="produto5"><a href="#">Elit - varius cursus</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco5')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco5">R$ 200,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/6.jpg" />
+				<figcaption id="produto1"><a href="#">Nunc ac ex - quis tellus</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco1')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco1">R$ 100,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/7.jpg" />
+				<figcaption id="produto2"><a href="#">Pellentesque - Imperdiet quis sit amet diam</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco2')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco2">R$ 110,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/8.jpg" />
+				<figcaption id="produto3"><a href="#">Nunc eleifend - Malesuada</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco3')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco3">R$ 100,00</h5>
+			</div>
+
+			<div>
+				<img src="_img/usados/9.jpg" />
+				<figcaption id="produto4"><a href="#">Nam vitae - Cursus velit</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco4')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco4">R$ 115,00</h5>
+			</div>
+			<div>
+				<img src="_img/usados/10.jpg" />
+				<figcaption id="produto5"><a href="#">Nam rutrum - Tortor vel</a></figcaption>
+				<div class="overlay"></div>
+				<div class="button"><a href="#" onclick="somar(price = 'preco5')"> <i class="fa fa-shopping-cart"></i> </a></div>
+				<h5 id="preco5">R$ 200,00</h5>
+			</div>
+
+
+
+
+
+
+		</main>
+
+
+
+
+
+
+
+
+
+	</div>
+	<footer>
+
+
+		<p class="text-center">Copyright &copy; 2018 - Desenvolvido por Lenon Ricardo.</p>
+
+	</footer>
+	<script src="_js/scripts.js"></script>
+</body>
+
+</html>

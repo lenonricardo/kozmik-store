@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	<link rel="stylesheet" href="_css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Kozmik Records - Store</title>
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+	<header id="cabecalho">
+
+		<h1>KOZMIK</h1>
+
+
+		<nav id="user-menu">
+
+
+
+
+			<div class="user-menu">
+				<ul>
+					<li><a href="#"><i class="fa fa-user"></i> Minha Conta</a></li>
+					<li><a href="#"><i class="fa fa-shopping-cart"></i> Meu Carrinho</a></li>
+					<li><a href="#"><i class="fa fa-lock"></i> Login</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+		</nav>
+
+
+		<nav id="menu">
+
+			<ul type="circle">
+				<li><a href="index.html">HOME</li></a>
+				<li><a href="lps-novos.html">LPS NOVOS</a></li>
+				<li><a href="lps-usados.html">LPS USADOS</a></li>
+				<li><a href="quem-somos.html">QUEM SOMOS</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+
+		</nav>
+
+
+		<div class="shopping-item">
+			<a href="carrinho.html">Carrinho - <span id="carrinho">R$ 0</span> <i class="fa fa-shopping-cart"></i>
+				<span id='item'>0 </span></a>
+		</div>
+
+
+
+	</header>
+	<div id="interface">
+		<div id="carrinho">
+			<table id="tabela">
+				<tr>
+					<td class="ce"> Produto </td>
+					<td class="cd">Valor</td>
+				</tr>
+				<figure class="foto_f1">
+					<tr>
+						<td class="ce"><img src="_img/peppers.jpg" width="80" height="80"> Sgt. Peppers Lonely Hearts Club Band - The
+							Beatles</td>
+						<td class="cd"><select id="produto1">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select> R$ 100,00</td>
+					</tr>
+
+
+					<tr>
+						'' <td class="ce"><img src="_img/smile.jpg" width="80" height="80"> Smiley Smile - Beach Boys</td>
+						<td class="cd"><select id="produto2">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select> R$ 115,00</td>
+					</tr>
+
+					<tr>
+						<td class="ce"><img src="_img/zeppelin.jpeg" width="80" height="80"> Led Zeppelin III - Led Zeppelin</td>
+						<td class="cd"><select id="produto3">
+								<option value="0">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select> R$ 200,00</td>
+					</tr>
+
+
+					<tr>
+						<td class="ce"> Total</td>
+						<td id="totalcart" class="cd"> R$ 0,00</td>
+					</tr>
+
+
+				</figure>
+
+
+			</table>
+			<center>
+				<br>
+				<button type="button" onclick="comprar()">Atualizar carrinho</button>
+			</center>
+
+		</div>
+
+
+
+
+	</div>
+	<footer>
+
+
+		<p class="text-center">Copyright &copy; 2018 - Desenvolvido por Lenon Ricardo.</p>
+
+	</footer>
+	<script src="_js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando funções em JavaScript</h1>
+		<p id="p1">Um parágrafo</p>
+		<button type="button" onclick="minhaFuncao()">Teste sua função</button><br><br>
+		<button type="button" onclick="outraFuncao()">desfazer</button>
+		<script src="_js/scripts.js"></script>
+
+		<p>Exemplo de saída com document.write</p>
+		<button onclick="document.write('Mundo mágico do JavaScript')">Teste seu código</button>
+
+		<p id="p2">Exemplo de saída com innerHTML.</p>
+		<button onclick="document.getElementById('p2').innerHTML = 'Mundo mágico do Javascript'">Teste seu codigo</button>
+
+		<p id="p3"></p>
+		<p id="p4"></p>
+		<script>
+			funcao();
+		</script>
+		
+		<p id="p5">Qualquer porcaria</p>
+        <button onclick="exibirNoAlerta()">Alerta!</button><br><br>
+
+        <form>
+        Valor 1: <input id="v1"  type="text"  size="3"><br><br>
+        Valor 2: <input id="v2"  type="text"  size="3"><br><br>
+        <button onclick="somar()">Resultado</button>
+        <!----<input type="text" id="resultado"/>-->
+    </form>
+
+
+        <br><br>
+        <h3>Diferença entre os operadores == e ===</h3>
+        <button onclick="escrever()">Escreva!</button>
+
+    <br><br><br><br><br>
+    <h3>O feitiço correto para acender uma luz é: </h3>
+    <input type="text" id="resposta"/><br>
+    <button type="button" id="bresponder">Responder</button>
+
+    <div id="multimidia">
+		<video id="video" control="controls">
+			<source src="_video/Untitled.mp4" type="video/mp4"/>
+		</video>
+	</div> 
+</body>
+</html>
